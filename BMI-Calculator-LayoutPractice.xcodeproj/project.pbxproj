@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E12A25524676C7B00EA1D21 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12A25424676C7B00EA1D21 /* ResultsViewController.swift */; };
+		1E37BC5B24FEFA0600A3705E /* calculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E37BC5A24FEFA0600A3705E /* calculatorBrain.swift */; };
 		AD0B9F9F230D64B30065EFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F9E230D64B30065EFD9 /* AppDelegate.swift */; };
 		AD0B9FA1230D64B30065EFD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9FA0230D64B30065EFD9 /* SceneDelegate.swift */; };
 		AD0B9FA3230D64B30065EFD9 /* CalclateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9FA2230D64B30065EFD9 /* CalclateViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		1E12A25424676C7B00EA1D21 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		1E37BC5A24FEFA0600A3705E /* calculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = calculatorBrain.swift; path = "BMI-Calculator-LayoutPractice/Controllers/calculatorBrain.swift"; sourceTree = SOURCE_ROOT; };
 		AD0B9F9B230D64B30065EFD9 /* BMI-Calculator-LayoutPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI-Calculator-LayoutPractice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B9F9E230D64B30065EFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0B9FA0230D64B30065EFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		AD0B9FB4230D64F70065EFD9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1E37BC5A24FEFA0600A3705E /* calculatorBrain.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD0B9FA3230D64B30065EFD9 /* CalclateViewController.swift in Sources */,
+				1E37BC5B24FEFA0600A3705E /* calculatorBrain.swift in Sources */,
 				AD0B9F9F230D64B30065EFD9 /* AppDelegate.swift in Sources */,
 				AD0B9FA1230D64B30065EFD9 /* SceneDelegate.swift in Sources */,
 				1E12A25524676C7B00EA1D21 /* ResultsViewController.swift in Sources */,
